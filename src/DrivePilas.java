@@ -7,9 +7,9 @@ public class DrivePilas {
 
         Pilas p = new Pilas();
 
-        p.push(2);
-        p.push(8);
-        p.push(1);
+        p.push(100);
+        p.push(50);
+        p.push(20);
 
         p.peek();
         p.cima();
