@@ -3,3 +3,10 @@ Proyecto que consiste en el manejo de listas mediante clases y métodos creados m
 Contará con un menú el cual mostrará las diferentes opciones de Agregar, Mostrar, Eliminar, etc.
 
 Cada una de estas opciones hará el manejo de la pila dependiendo la opción.
+
+
+Buuu buuu xD
+
+Prueba 1- 1
+
+Analizando .......
