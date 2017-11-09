@@ -47,10 +47,12 @@ public class Main {
                 }
                 case "3": {
                     System.out.println("*** Buscar ***");
+                    p.cima();
                     break;
                 }
                 case "4": {
                     System.out.println("*** Eliminar ***");
+                    p.pop();
                     break;
                 }
                 case "5": {
