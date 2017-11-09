@@ -15,14 +15,7 @@ public class Main {
         do {
             System.out.println(" ********** Pilas ************");
             System.out.println("********** Menú Principal  **********");
-            System.out.println("1. Insertar.");
-            System.out.println("2. Mostrar.");
-            System.out.println("3. Buscar.");
-            System.out.println("4. Eliminar.");
-            System.out.println("5. Tamaño.");
-            System.out.println("6. Máximo.");
-            System.out.println("7. Mínimo.");
-            System.out.println("8. Terminar.");
+            System.out.print("1. Insertar.\t2. Mostrar.\t3. Buscar.\t4. Eliminar.\n5. Tamaño.\t6. Máximo.\t7. Mínimo.\t8. Terminar.\n");
             System.out.println();
             System.out.print("Elija una opción: ");
             opcion = sc.nextLine();

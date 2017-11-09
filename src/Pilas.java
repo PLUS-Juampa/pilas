@@ -35,6 +35,7 @@ public class Pilas {
                 System.out.println(temp.getValor());
                 temp = temp.getProx();
             }
+            System.out.println();
         }else {
             System.out.println("Pila vacía \n");
         }
