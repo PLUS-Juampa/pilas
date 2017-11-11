@@ -4,9 +4,3 @@ Contará con un menú el cual mostrará las diferentes opciones de Agregar, Mostrar
 
 Cada una de estas opciones hará el manejo de la pila dependiendo la opción.
 
-
-Buuu buuu xD
-
-Prueba 1- 1
-
-Analizando .......

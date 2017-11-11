@@ -5,21 +5,21 @@ public class Pilas {
 
     private Nodo top;
 
-    public Pilas(){
+    public Pilas() {
         top = null;
     }
 
-    public boolean vacia(){
+    public boolean vacia() {
         return (top == null);
     }
 
-    public void push(int valor){
+    public void push(int valor) {
 
         Nodo nuevoNodo;
 
-        if(vacia()){
+        if (vacia()) {
             top = new Nodo(valor);
-        }else {
+        } else {
             nuevoNodo = new Nodo(valor);
             nuevoNodo.setProx(top);
             top = nuevoNodo;
@@ -27,35 +27,55 @@ public class Pilas {
 
     }
 
-    public void peek(){
+    public void peek() {
         Nodo temp = top;
-        if(temp!=null){
+        if (temp != null) {
             System.out.println("La pila es: ");
-            while (temp!=null){
+            while (temp != null) {
                 System.out.println(temp.getValor());
                 temp = temp.getProx();
             }
             System.out.println();
-        }else {
+        } else {
             System.out.println("Pila vacía \n");
         }
     }
 
-    public void cima(){
-        if(!vacia()){
+    public void cima() {
+        if (!vacia()) {
             System.out.println("Cima: " + top.getValor());
-        }else {
+        } else {
             System.out.println("La pila está vacía");
         }
     }
 
-    public void pop(){
-        if(!vacia()){
+    public void pop() {
+        if (!vacia()) {
             System.out.println("Dato extraído: " + top.getValor());
             top = top.getProx();
-        }else {
+        } else {
+            System.out.println("La pila está vacía");
+        }
+    }
+
+    public void maximo() {
+        Nodo temp = top;
+        int max = 0;
+        if (temp != null) {
+            while (temp != null) {
+                if (temp.getValor() > max) {
+                    max = temp.getValor();
+                }
+                temp = temp.getProx();
+            }
+
+            System.out.println("Valor máximo: " + max);
+        }
+        else
+        {
             System.out.println("La pila está vacía");
         }
     }
 
 }
+

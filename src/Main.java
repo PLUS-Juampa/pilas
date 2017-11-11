@@ -61,6 +61,7 @@ public class Main {
                 }
                 case "6": {
                     System.out.println("*** Máximo ***");
+                    p.maximo();
                     break;
                 }
                 case "7": {
