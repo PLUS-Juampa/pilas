@@ -71,8 +71,7 @@ public class Pilas {
 
             System.out.println("Valor máximo: " + max);
         }
-        else
-        {
+        else {
             System.out.println("La pila está vacía");
         }
     }
@@ -90,8 +89,7 @@ public class Pilas {
 
             System.out.println("Valor minimo: " + min);
         }
-        else
-        {
+        else {
             System.out.println("La pila está vacía");
         }
 
