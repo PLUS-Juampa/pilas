@@ -66,6 +66,7 @@ public class Main {
                 }
                 case "7": {
                     System.out.println("*** Mínimo ***");
+                    p.minimo();
                     break;
                 }
                 case "8": {

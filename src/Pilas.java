@@ -77,5 +77,25 @@ public class Pilas {
         }
     }
 
+    public void minimo(){
+        Nodo temp = top;
+        int min = 100;
+        if (temp != null) {
+            while (temp != null) {
+                if (temp.getValor() < min) {
+                    min = temp.getValor();
+                }
+                temp = temp.getProx();
+            }
+
+            System.out.println("Valor minimo: " + min);
+        }
+        else
+        {
+            System.out.println("La pila está vacía");
+        }
+
+    }
+
 }
 
