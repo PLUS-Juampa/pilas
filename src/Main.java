@@ -48,11 +48,13 @@ public class Main {
                 }
                 case "3": {
                     System.out.println("*** Buscar ***");
+                    p.cima();
                     System.out.println("\n");
                     break;
                 }
                 case "4": {
                     System.out.println("*** Eliminar ***");
+                    p.pop();
                     System.out.println("\n");
                     break;
                 }
@@ -85,7 +87,7 @@ public class Main {
             }
         } while (!opcion.equals("8"));
 
-        /*
+
         p.push(100);
         p.push(50);
         p.push(20);
@@ -99,7 +101,7 @@ public class Main {
         p.pop();
         p.peek();
 
-        */
+
 
 
     }
