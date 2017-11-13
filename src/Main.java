@@ -48,13 +48,11 @@ public class Main {
                 }
                 case "3": {
                     System.out.println("*** Buscar ***");
-                    p.cima();
                     System.out.println("\n");
                     break;
                 }
                 case "4": {
                     System.out.println("*** Eliminar ***");
-                    p.pop();
                     System.out.println("\n");
                     break;
                 }
